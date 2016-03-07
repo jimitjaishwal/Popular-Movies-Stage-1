@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_by_movieList_label">
+        <item>@string/pref_popularity_label</item>
+        <item>@string/pref_vote_average_label</item>
+    </string-array>
+
+    <string-array name="sort_by_movieList_Key">
+        <item>@string/pref_popularity</item>
+        <item>@string/pref_vote_average</item>
+    </string-array>
+</resources>

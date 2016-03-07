@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MoviePlex</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Label Sort By-->
+    <string name="pref_vote_average_label">Vote Average</string>
+    <string name="pref_popularity_label">Popularity</string>
+    <!--Sort By-->
+    <string name="pref_vote_average" translatable="false">vote_count.gte=500</string>
+    <string name="pref_popularity" translatable="false">popularity.desc</string>
+    <!--List Preference Titles-->
+    <string name="pref_movie_list_sort_by_label">Sort By MovieList</string>
+    <string name="pref_movie_list_sort_by">sort by movieList</string>
+    <string name="pref_movie_list_sort_by_key">sort by movieList</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_settings">Settings</string>
+</resources>

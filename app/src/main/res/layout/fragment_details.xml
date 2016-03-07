@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jimitjaishwal.movieplex.DetailsActivityFragment"
+    tools:showIn="@layout/activity_details">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/original_title"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/colorOrange"
+                android:elevation="6dp"
+                android:gravity="left|center"
+                android:padding="10dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="35sp" />
+
+            <ImageView
+                android:id="@+id/poster"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/original_title"
+                android:adjustViewBounds="true"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/poster"
+                android:layout_below="@id/original_title"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/poster"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/year"
+                android:layout_below="@id/year"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/overview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/poster"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
